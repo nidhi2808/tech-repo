@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 export default function FormValidation() {
     const { register, handleSubmit, formState: { errors,data } } = useForm();
     const onSubmit = (data) => {
-        
+        console.log(data);
     }
     return (
         <div>
